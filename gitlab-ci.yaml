@@ -1,0 +1,14 @@
+stages:
+  - boman
+
+image: docker:latest
+
+services:
+- docker:dind
+
+boman-ai-scan:
+  stage: boman
+  script:
+    - apk add --no-cache python3 py3-pip
+    - python3 -m pip install boman-cli --upgrade
+    - boman-cli -a run 
