@@ -1,0 +1,16 @@
+Auth:
+  project_token: "pasteyourprojectoken"
+  customer_token:  "pasteyourcustomeroken"
+   
+SAST:
+  language: "nodejs" # nodejs,php,python,ruby,java
+ 
+#DAST:
+ # type: "WEB" ## API, dWEB, WEB-ADV
+ # URL: "http://demo.testfire.net" 
+ # api_type : openapi  #soap, #graphql
+ 
+#SCA:
+ #  language: "js" #language optional
+ 
+#Secret_Scan: True # False incase dont want SS , default is true
