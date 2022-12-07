@@ -13,4 +13,3 @@ steps:
     sudo python3 -m pip install boman-cli
     sudo boman-cli -a run 
   displayName: 'install boman-cli and run scan'
-  workingDirectory: 'test' 
